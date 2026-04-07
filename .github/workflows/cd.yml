@@ -27,7 +27,7 @@ jobs:
 
       - name: Build
         run: npm run build
-      - run: echo "tree ./build"
+      - run: tree ./build
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
